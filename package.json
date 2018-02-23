@@ -1,0 +1,34 @@
+{
+  "name": "fabric-ui-react-color-input",
+  "version": "1.0.3",
+  "description": "Color input for fabric ui",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "clean": "rimraf lib",
+    "build": "npm run clean && tsc"
+  },
+  "author": "Dmytro Shyshko",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^15.6.6",
+    "@types/react-dom": "^15.5.6",
+    "office-ui-fabric-react": "^5.50.0",
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2",
+    "sp-pnp-js": "^3.0.4"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.4.1",
+    "clean-webpack-plugin": "^0.1.18",
+    "html-webpack-plugin": "^2.30.1",
+    "rimraf": "^2.6.2",
+    "source-map-loader": "^0.2.3",
+    "tslint": "^5.9.1",
+    "tslint-loader": "^3.5.3",
+    "typescript": "^2.7.1",
+    "uglifyjs-webpack-plugin": "^1.1.8",
+    "webpack": "^3.11.0"
+  }
+}
