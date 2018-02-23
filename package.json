@@ -1,6 +1,6 @@
 {
   "name": "fabric-ui-react-color-input",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Color input for fabric ui",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -11,6 +11,16 @@
   },
   "author": "Dmytro Shyshko",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DmytroShyshko/fabric-ui-react-color-input"
+  },
+  "keywords": [
+    "Office UI Fabric",
+    "Color Input",
+    "react",
+    "typescript"
+  ],
   "dependencies": {
     "@types/react": "^15.6.6",
     "@types/react-dom": "^15.5.6",
